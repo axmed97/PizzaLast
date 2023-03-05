@@ -1,0 +1,199 @@
+#section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+#section .crust1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 2px solid red;
+}
+#section .crust1.pic {
+  width: 70px;
+  height: 70px;
+  left: 49%;
+  top: 46%;
+}
+#section .crust1.pic1 {
+  width: 70px;
+  height: 70px;
+  left: 49%;
+  top: 28%;
+}
+#section .crust1.pic2 {
+  width: 70px;
+  height: 70px;
+  left: 40%;
+  top: 49%;
+}
+#section header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+#section header .crust {
+  position: absolute;
+  left: 52%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#section header .left {
+  width: 150px;
+  height: 100%;
+  position: relative;
+  background-color: rgb(93, 178, 181);
+}
+#section header .left .box {
+  margin: 0px 25px;
+  padding: 0;
+  height: 24.9vh;
+  border-bottom: 2px solid pink;
+}
+#section header .left .box h4 {
+  color: pink;
+  font-size: 17px;
+}
+#section header .left .box img {
+  max-width: 100%;
+  padding-top: 30px;
+}
+#section header .left .box-right {
+  position: absolute;
+  width: 250px;
+  top: 0%;
+  left: 100%;
+  text-align: center;
+  padding: 20px;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  background-color: pink;
+}
+#section header .left .box-right .copy1 {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#section header .left .box-right .copy2 {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  mix-blend-mode: luminosity;
+}
+#section header .left .box-right .peperonni,
+#section header .left .box-right .steak {
+  width: 100%;
+}
+#section header .left .box-right .ketchub-box {
+  border: 2px solid blue;
+  position: relative;
+}
+#section header .left .box-right .ketchub-box .mini-box1 {
+  border: 2px solid green;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: green;
+}
+#section header .left .box-right h3 {
+  margin-top: 30px;
+}
+#section header .left .box-right img {
+  padding-top: 50px;
+}
+#section header .left .box-right .ketchub {
+  width: 100%;
+}
+#section header .left .box-right .barbeque {
+  width: 100%;
+  mix-blend-mode: luminosity;
+}
+#section header .left .box-right.active {
+  transition: 0.3s ease-in-out;
+  opacity: 1;
+  visibility: visible;
+  animation: hay 0.8s normal;
+}
+@keyframes hay {
+  0% {
+    transform: translateX(-240px);
+  }
+  20% {
+    transform: translateX(0px);
+  }
+  30% {
+    transform: translateX(-20px);
+  }
+  60% {
+    transform: translateX(0px);
+  }
+  83% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+#section header .left .box-right .lavas1 {
+  width: 180px;
+  height: 180px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 50%;
+  background-color: #ece8a4;
+  box-shadow: 10px 0px 20px 1px;
+  border: 7px solid rgba(230, 140, 38, 0.3137254902);
+}
+#section header .left .box-right .lavas2 {
+  width: 180px;
+  height: 180px;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 50%;
+  background-color: #c6821d;
+  box-shadow: 10px 0px 20px 1px;
+  border: 7px solid rgba(40, 23, 5, 0.3137254902);
+}
+#section header .left .box {
+  text-align: center;
+}
+#section header .left .box img {
+  width: 80%;
+}
+#section header .box1 {
+  width: 200px;
+  height: 200px;
+}
+#section header .box1 img {
+  left: 0%;
+  height: 0;
+  width: 200px;
+  height: 200px;
+}
+#section header .box2 {
+  border: 2px solid red;
+  width: 200px;
+  height: 200px;
+}
+#section header .box2 img {
+  left: 0%;
+  height: 0;
+  width: 200px;
+  height: 200px;
+}
+#section canvas {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  border: 2px solid red;
+  position: absolute;
+}/*# sourceMappingURL=style.css.map */
